@@ -18,7 +18,7 @@ const Container = styled.div`
   justify-content: none;
   align-items: none;
   flex-direction: row;
-  color: #fff;
+  color: black;
   letter-spacing: 1px;
   padding: 0 10px;
 `
