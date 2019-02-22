@@ -16,6 +16,8 @@
 4.) What are three different ways to style components in React? Explain some of the benefits of each.
 
     We can use CSS (including Less and Sass), bootstrap and reactstrap libraries, and, lastly, styled-components, which we add in our JavaScript directly. 
+    
+    Vanilla CSS is simple and can be well-understood by any developer. Bootstrap and reactstrap are libraries that style our elements for us, saving time and producing professional looking results. Styled-components can use vanilla CSS and/or a library inside JavaScript files, which can help developers keep clean, efficient, organized directories. 
 
 
 
