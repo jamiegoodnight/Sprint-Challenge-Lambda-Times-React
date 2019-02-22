@@ -30,10 +30,17 @@ export default class Content extends Component {
    })
   };
 
-  // filterCards = () => {
-  //   if 
-  //   return this.state.cards;
-  // };
+  filterCards = () => {
+    if (this.state.selected==="all"){
+      return this.state.cards
+    } else {
+      let myCards=this.state.cards.filter(card =>
+        card.tab===this.state.selected)
+        return myCards;
+    }
+  };
+    
+
 
   render() {
     return (
@@ -49,7 +56,7 @@ export default class Content extends Component {
         selectTabHandler={this.changeSelected}
         />
         <Cards 
-        cards={this.state.cards} 
+        cards={this.filterCards()}
         />
       </div>
     );
